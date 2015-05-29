@@ -29,6 +29,31 @@
   		ga('send', 'pageview');
 
 	</script>       
+
+<!-- Map styling -->
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script>
+var map;
+function initialize() {
+  var mapOptions = {
+    zoom: 8,
+    center: new google.maps.LatLng(-34.397, 150.644)
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+
 </head>
 <body>
 
@@ -250,22 +275,19 @@
 <br>
 <br>
 
-	<!-- Testimonials start -->
+	<!-- Contact start -->
 
-	<section id="contact" class="pfblock pfblock-gray">
-
+	<section id="contact" class="pfblock">
 		<div class="container">
-            
-            <div class="row">
+			<div class="row">
 
 				<div class="col-sm-6 col-sm-offset-3">
 
-					<div class="pfblock-header wow fadeInUp">
+					<div class="pfblock-header">
 						<h2 class="pfblock-title">Contact Me</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							<!-- [contact me text] -->
-							<br><br>
+							I'm based in Shrewsbury, Shropshire. Feel free to contact me on any of social links below
 						</div>
 					</div>
 
@@ -273,35 +295,17 @@
 
 			</div><!-- .row -->
 
-<!--             <div class="row">
+			<div class="row">
 
-			<div id="cbp-qtrotator" class="cbp-qtrotator">
-                <div class="cbp-qtcontent">
-                    <img src="assets/images/client-1.jpg" alt="client-1" />
-                    <blockquote>
-                      <p>Work with John was a pleasure. He understood exactly what I wanted and created an awesome site for my company.</p>
-                      <footer>Pino Caruso</footer>
-                    </blockquote>
-                </div>
-                <div class="cbp-qtcontent">
-                    <img src="assets/images/client-2.jpg" alt="client-2" />
-                    <blockquote>
-                      <p>I'm really happy with the results. Get 100% satisfaction is difficult but Alex got it without problems.</p>
-                      <footer>Jane Doe</footer>
-                    </blockquote>
-                </div>
+				<div class="col-sm-6 col-sm-offset-3">
+						<img src="assets/images/staticmap.png">
+				</div>
 
-            </div>	 -->	
-
-            <br><br><br><br><br><br><br><br>
-
-            </div><!-- .row -->
-
-					
-		</div><!-- .row -->
+			</div><!-- .row -->
+		</div><!-- .container -->
 	</section>
 
-	<!-- Testimonial end -->
+	<!-- Contact end -->
 
 
 	<!-- Footer start -->
