@@ -1,0 +1,34 @@
+h1, h2, p {
+    font-family: roboto;
+}
+
+p {
+    text-align: center;
+}
+
+.profile-text {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    zoom: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    margin-top: 40px;
+}
+
+.social {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fa {
+    margin: 10px;
+}
