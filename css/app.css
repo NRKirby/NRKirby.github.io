@@ -1,6 +1,8 @@
-h1, h2, p {
+h1, h2, p, a {
     font-family: roboto;
 }
+
+
 
 p {
     text-align: center;
@@ -8,7 +10,7 @@ p {
 
 .profile-text {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -21,7 +23,7 @@ p {
 }
 
 .description {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .social {
@@ -31,4 +33,16 @@ p {
 
 .fa {
     margin: 10px;
+}
+
+html,
+.top-bar, 
+.top-bar ul,
+.menu-text,
+li {
+    background-color: white;
+}
+
+body {
+    background: white;
 }
