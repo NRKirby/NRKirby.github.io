@@ -2,13 +2,15 @@ h1, h2, p, a {
     font-family: roboto;
 }
 
-
-
 p {
     text-align: center;
 }
 
-.profile-text {
+a {
+    color: #293369;
+}
+
+.header-text {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 30px;
