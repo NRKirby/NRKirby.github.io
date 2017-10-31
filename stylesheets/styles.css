@@ -73,7 +73,7 @@ header {
   }
 
   a {
-    color: #63c0f5;
+    color: #a8ecf2;
     text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
   }
 
@@ -83,6 +83,24 @@ header {
 
   img {
       display: inline-block;
-      width: 50px;
+      width: 40px;
       height: auto;
+  }
+
+  .img-circle {
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blink {
+    animation: blinker 6s linear 3;
+    animation-delay: 4s;
+  }
+  
+  @keyframes blinker {  
+    60% { opacity: 0.3; }
   }
