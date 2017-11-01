@@ -100,15 +100,15 @@ img {
 
 .blink1 {
   animation-name: blinker;
-  animation-duration: 2s;
-  animation-delay: 1s;
+  animation-duration: 1.6s;
+  animation-delay: 2s;
   animation-timing-function: ease-in;
   animation-iteration-count: 1;
 }
   
 .blink2 {
   animation-name: blinker;
-  animation-duration: 2s;
+  animation-duration: 1.6s;
   animation-delay: 3s;
   animation-timing-function: ease-in;
   animation-iteration-count: 1;
@@ -116,8 +116,8 @@ img {
 
 .blink3 {
   animation-name: blinker;
-  animation-duration: 2s;
-  animation-delay: 5s;
+  animation-duration: 1.6s;
+  animation-delay: 4s;
   animation-timing-function: ease-in;
   animation-iteration-count: 1;
 }
