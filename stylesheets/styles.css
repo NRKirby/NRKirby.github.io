@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #151515 url("../images/bkg.png") 0 0;
+    background: #151515 url("") 0 0;
     color: #eaeaea;
     font: 16px;
     line-height: 1.5;
@@ -87,13 +87,15 @@ img {
   height: auto;
 }
 
-.img-circle {
+#img-circle {
   border-radius: 50%;
   height: 150px;
   width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+  display: none;
 }
 
 .blink1 {
