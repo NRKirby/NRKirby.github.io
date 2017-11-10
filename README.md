@@ -1,4 +1,5 @@
-## Personal site hosted on Github
+# NRKirby.co.uk
 
-http://nrkirby.co.uk
+This repo hosts source code for [nrkirby.co.uk](https://nrkirby.co.uk)
+
 
