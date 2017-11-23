@@ -18,12 +18,12 @@ html {
     
   /* Equal to height of footer */
   /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -80px;
+  margin-bottom: -90px;
 }
 
 .footer,
 .push {
-  height: 80px;
+  height: 90px;
 }
 
 .container {
@@ -79,12 +79,15 @@ a {
 
 footer {
   text-align: center;
+  margin-top: 0.8em;
+  padding: 1.2em 0;
 }
 
-img {
+footer img {
   display: inline-block;
   width: 40px;
   height: auto;
+  padding: 0 0.2em;
 }
 
 #img-circle {
