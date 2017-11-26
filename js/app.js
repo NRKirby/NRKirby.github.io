@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     })
 
     document.getElementById("twitter").addEventListener("mouseout", function () {
-        this.src = 'img/twitter1.svg';
+        this.src = 'img/twitter.svg';
     })
 
     document.getElementById("linkedin").addEventListener("mouseover", function () {
