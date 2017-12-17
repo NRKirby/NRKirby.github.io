@@ -22,5 +22,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.getElementById("linkedin").addEventListener("mouseout", function () {
         this.src = 'img/linkedin.svg';
     })
+
+    function imgRandom(imgArr) {
+        return imgArr[Math.floor(Math.random() * imgArr.length)];
+    }
+
+    function getImageSrc() {
+        var images = ["Remote.svg", "Remote_blue.svg"]
+        return "img\\" + imgRandom(images);
+    }
+    
+    document.getElementById("Remote-logo").src=getImageSrc();
 });
 
